@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: pndxdcode/alpine-android-fastlane
+    commands: 
+        - fastlane android test
+    when: 
+      event: push
+      branch: assignment
