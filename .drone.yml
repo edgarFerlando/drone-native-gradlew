@@ -4,5 +4,5 @@ pipeline:
     commands: 
         - fastlane android test
     when: 
-      event: push
+      event: pull_request
       branch: develop
